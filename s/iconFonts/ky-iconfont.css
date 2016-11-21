@@ -1,0 +1,386 @@
+@CHARSET "UTF-8";
+
+/* 使用font-face声明字体图标 */
+@font-face {
+	font-family: 'iconfont';
+    src: url('./iconFont/iconfont.eot'); /* IE9*/
+    src: url('./iconFont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./iconFont/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('./iconFont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('./iconFont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.ky-iconfont {
+  position: relative;
+  display: inline-block;
+  font-family: 'iconfont';
+  font-style: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ky-iconfont-back:before{
+	content: "\e603";
+}
+
+.ky-iconfont-workStation:before{
+	content: "\e60d";
+}
+
+.ky-iconfont-artiException:before{
+	content: "\e60f";
+}
+
+.ky-iconfont-intelligentException:before{
+	content: "\e61b";
+}
+
+.ky-iconfont-lifeService:before{
+	content: "\e610";
+}
+
+.ky-iconfont-conference:before{
+	content: "\e602";
+}
+
+.ky-iconfont-plus:after{
+	content: "\e611";
+}
+
+.ky-iconfont-compositeAnalysis:before{
+	content: "\e612";
+}
+
+.ky-iconfont-qualityManagement:before{
+	content: "\e619";
+}
+
+.ky-iconfont-myAttention:before{
+	content: "\e622";
+}
+
+.ky-iconfont-spareParts:before{
+	content: "\e639";
+}
+
+.ky-iconfont-home-unselected:before{
+	content: "\e61c";
+}
+
+.ky-iconfont-home-selected:before{
+	content: "\e61d";
+}
+
+.ky-iconfont-myInformation-unselected:before{
+	content: "\e61e";
+}
+
+.ky-iconfont-myInformation-selected:before{
+	content: "\e61f";
+}
+
+.ky-iconfont-message-unselected:before{
+	content: "\e620";
+}
+
+.ky-iconfont-message-selected:before{
+	content: "\e621";
+}
+
+.ky-iconfont-previous:before{
+	content: "\e623";
+}
+
+.ky-iconfont-next:before{
+	content: "\e624";
+}
+
+.ky-iconfont-next-after:after{
+	content: "\e624";
+}
+
+.ky-iconfont-up:before{
+	content: "\e600";
+}
+
+.ky-iconfont-down:before{
+	content: "\e601";
+}
+
+.ky-iconfont-excHiddendangerList:before{
+	content: "\e637";
+}
+
+.ky-iconfont-excHiddendangerSubmit:before{
+	content: "\e638";
+}
+
+.ky-iconfont-productTest:before{
+	content: "\e605";
+}
+
+.ky-iconfont-benchmarkingIndex:before{
+	content: "\e606";
+}
+
+.ky-iconfont-superInspection:before{
+	content: "\e607";
+}
+
+.ky-iconfont-userName:before{
+	content: "\e64c";
+}
+
+.ky-iconfont-password:before{
+	content: "\e64d";
+}
+
+.ky-iconfont-safety:before{
+	content: "\e608";
+}
+
+.ky-iconfont-quality:before{
+	content: "\e609";
+}
+
+.ky-iconfont-production:before{
+	content: "\e60a";
+}
+
+.ky-iconfont-equipment:before{
+	content: "\e60b";
+}
+
+.ky-iconfont-consumption:before{
+	content: "\e60c";
+}
+
+.ky-iconfont-cost:before{
+	content: "\e62d";
+}
+
+.ky-iconfont-delivery:before{
+	content: "\e62e";
+}
+
+.ky-iconfont-morale:before{
+	content: "\e62f";
+}
+
+.ky-iconfont-efficiency:before{
+	content: "\e630";
+}
+
+.ky-iconfont-record:before{
+	content: "\e60e";
+}
+
+.ky-iconfont-camera:before{
+	content: "\e613";
+}
+
+.ky-iconfont-picture:before{
+	content: "\e614";
+}
+
+.ky-iconfont-unprocess-unselected:before{
+	content: "\e615";
+}
+
+.ky-iconfont-unprocess-selected:before{
+	content: "\e616";
+}
+
+.ky-iconfont-allException-unselected:before{
+	content: "\e625";
+}
+
+.ky-iconfont-allException-selected:before{
+	content: "\e617";
+}
+
+.ky-iconfont-processed-unselected:before{
+	content: "\e618";
+}
+
+.ky-iconfont-processed-selected:before{
+	content: "\e61a";
+}
+
+.ky-iconfont-countdown:before{
+	content: "\e62b";
+}
+
+.ky-iconfont-success-b:after{
+	content: "\e626";
+}
+
+.ky-iconfont-success-b-before:before {
+	content: "\e626";
+}
+
+.ky-iconfont-validationFail:before{
+	content: "\e62c";
+}
+
+.ky-iconfont-exceptionSubmit:before{
+	content: "\e627";
+}
+
+.ky-iconfont-exceptionList:before{
+	content: "\e628";
+}
+
+.ky-iconfont-badPointSubmit:before{
+	content: "\e629";
+}
+
+.ky-iconfont-badPointList:before{
+	content: "\e62a";
+}
+
+.ky-iconfont-search:before{
+	content: "\e604";
+}
+
+.ky-iconfont-success-a:after{
+	content: "\e631";
+}
+
+.ky-iconfont-submitFail:before{
+	content: "\e632";
+}
+
+.ky-iconfont-submitAgain:before{
+	content: "\e635";
+}
+
+.ky-iconfont-more:before{
+	content: "\e636";
+}
+
+.ky-iconfont-selectPortrait-camera:before{
+	content: "\e633";
+}
+
+.ky-iconfont-selectPortrait-picture:before{
+	content: "\e634";
+}
+
+.ky-iconfont-6s-factory-inspection:before{
+	content: "\e63c";
+}
+
+.ky-iconfont-6s-department-inspection:before{
+	content: "\e684";
+}
+
+.ky-iconfont-6s-todo-list:before{
+	content: "\e63d";
+}
+
+.ky-iconfont-6s-todo-list:before{
+	content: "\e63d";
+}
+
+.ky-iconfont-6s-statistical-analysis:before{
+	content: "\e63e";
+}
+
+.ky-iconfont-6s-record-list:before{
+	content: "\e63f";
+}
+
+.ky-iconfont-code-scan:before{
+	content: "\e644"
+}
+
+.ky-iconfont-code-scan-after:after{
+	content: "\e644"
+}
+
+.ky-iconfont-submit:before{
+	content: "\e643"
+}
+
+.ky-iconfont-6s:before{
+	content: "\e63b"
+}
+
+.ky-iconfont-affirm:before{
+	content: "\e626";
+}
+
+.ky-iconfont-tips:after{
+	content: "\e63a";
+}
+
+.ky-iconfont-delete:before{
+	content: "\e646"
+}
+
+.ky-iconfont-returnForCorrection:before{
+	content: "\e640"
+}
+
+.ky-iconfont-saveAndFile:before{
+	content: "\e647"
+}
+
+.ky-iconfont-6s-callToClean:before{
+	content: "\e658"
+}
+
+.ky-iconfont-6s-problemLib:before{
+	content: "\e64f"
+}
+
+.ky-iconfont-down-arrow:before{
+	content: "\e642"
+}
+
+.ky-iconfont-cleaning:before{
+	content: "\e645"
+}
+
+.ky-iconfont-party-badge:before {
+	content: "\e64e"
+}
+
+.ky-iconfont-party-news:before {
+	content: "\e654"
+}
+
+.ky-iconfont-knowledge-contest:before {
+	content: "\e659"
+}
+
+.ky-iconfont-questionnaire-survey:before {
+	content: "\e65b"
+}
+
+.ky-iconfont-activity:before {
+	content: "\e65a"
+}
+
+.ky-iconfont-meeting-remind:before {
+	content: "\e650"
+}
+
+.ky-iconfont-online-communication:before {
+	content: "\e655"
+}
+
+.ky-iconfont-location:before {
+	content: "\e656"
+}
+
+.ky-iconfont-envelope:before {
+	content: "\e65c"
+}
+
+.ky-iconfont-leave-message:before {
+	content: "\e61d"
+}

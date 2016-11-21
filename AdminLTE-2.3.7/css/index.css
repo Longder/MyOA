@@ -1,0 +1,93 @@
+.navbar-blue{
+    background-color: #50b4f2 !important;
+}
+.user-box{
+    position:relative;
+}
+#user_status{
+    position:absolute;
+    width:100px;
+    height:33px;
+    left:50px;
+    top:30px;
+    background-image:url("../images/icon12.jpg");
+    background-size:cover;
+}
+
+.box-primary {
+    border-top-color: #7ac0ee !important;
+}
+
+.title-font {
+    font-family: "Microsoft Yahei";
+}
+
+.image-box {
+    margin-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.image-box > img {
+    width: 80px;
+    height: 80px;
+}
+
+.image-box > p {
+    font-family: "Microsoft Yahei";
+    padding-top: 10px;
+}
+
+.subject-box {
+    font-family: "Microsoft Yahei";
+    padding-top: 13px;
+    cursor: pointer;
+    line-height: inherit;
+}
+
+.subject-box > img {
+    width: 60px;
+    heigh: 60px;
+    margin-right: 13px;
+}
+
+.subject-box p {
+    font-family: "Microsoft Yahei";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subject-box h3 {
+    font-family: "Microsoft Yahei";
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.data-box-title .dataTables_filter img {
+    height: 20px;
+}
+
+.menu {
+    position: relative;
+    margin-top: -50px;
+}
+
+.menu_arrow_left {
+    width: 17px;
+    height: 140px;
+    position: absolute;
+    left: 223px;
+    top: 300px;
+    background: url("../images/left.png") no-repeat;
+    z-index: 99;
+}
+
+.menu_arrow_right{
+    width: 17px;
+    height: 140px;
+    position: absolute;
+    left: 40px;
+    top: 300px;
+    background: url("../images/right.png") no-repeat;
+    z-index: 99;
+}
