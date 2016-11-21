@@ -51,63 +51,56 @@
   //Layout options
   demo_settings.append(
       "<h4 class='control-sidebar-heading'>"
-      + "字体设置"
+      + "Layout Options"
       + "</h4>"
-      +  "<button class='btn btn-default btn-sm navbar-btn' onclick='updateFontModal()'><i class='glyphicon glyphicon-plus'></i>字体设置</button>"
-
-      + "<h4 class='control-sidebar-heading'>"
-      + "窗口设置"
-      + "</h4>"
-      +  "<button class='btn btn-default btn-sm navbar-btn' onclick='insertWidget()'><i class='glyphicon glyphicon-plus'></i>窗口管理</button>"
-
-  //       //Fixed layout
-  //     + "<div class='form-group'>"
-  //     + "<label class='control-sidebar-subheading'>"
-  //     + "<input type='checkbox' data-layout='fixed' class='pull-right'/> "
-  //     + "Fixed layout"
-  //     + "</label>"
-  //     + "<p>Activate the fixed layout. You can't use fixed and boxed layouts together</p>"
-  //     + "</div>"
-  //       //Boxed layout
-  //     + "<div class='form-group'>"
-  //     + "<label class='control-sidebar-subheading'>"
-  //     + "<input type='checkbox' data-layout='layout-boxed'class='pull-right'/> "
-  //     + "Boxed Layout"
-  //     + "</label>"
-  //     + "<p>Activate the boxed layout</p>"
-  //     + "</div>"
-  //       //Sidebar Toggle
-  //     + "<div class='form-group'>"
-  //     + "<label class='control-sidebar-subheading'>"
-  //     + "<input type='checkbox' data-layout='sidebar-collapse' class='pull-right'/> "
-  //     + "Toggle Sidebar"
-  //     + "</label>"
-  //     + "<p>Toggle the left sidebar's state (open or collapse)</p>"
-  //     + "</div>"
-  //       //Sidebar mini expand on hover toggle
-  //     + "<div class='form-group'>"
-  //     + "<label class='control-sidebar-subheading'>"
-  //     + "<input type='checkbox' data-enable='expandOnHover' class='pull-right'/> "
-  //     + "Sidebar Expand on Hover"
-  //     + "</label>"
-  //     + "<p>Let the sidebar mini expand on hover</p>"
-  //     + "</div>"
-  //       //Control Sidebar Toggle
-  //     + "<div class='form-group'>"
-  //     + "<label class='control-sidebar-subheading'>"
-  //     + "<input type='checkbox' data-controlsidebar='control-sidebar-open' class='pull-right'/> "
-  //     + "Toggle Right Sidebar Slide"
-  //     + "</label>"
-  //     + "<p>Toggle between slide over content and push content effects</p>"
-  //     + "</div>"
-  //       //Control Sidebar Skin Toggle
-  //     + "<div class='form-group'>"
-  //     + "<label class='control-sidebar-subheading'>"
-  //     + "<input type='checkbox' data-sidebarskin='toggle' class='pull-right'/> "
-  //     + "Toggle Right Sidebar Skin"
-  //     + "</label>"
-  //     + "<p>Toggle between dark and light skins for the right sidebar</p>"
-  //     + "</div>"
+        //Fixed layout
+      + "<div class='form-group'>"
+      + "<label class='control-sidebar-subheading'>"
+      + "<input type='checkbox' data-layout='fixed' class='pull-right'/> "
+      + "Fixed layout"
+      + "</label>"
+      + "<p>Activate the fixed layout. You can't use fixed and boxed layouts together</p>"
+      + "</div>"
+        //Boxed layout
+      + "<div class='form-group'>"
+      + "<label class='control-sidebar-subheading'>"
+      + "<input type='checkbox' data-layout='layout-boxed'class='pull-right'/> "
+      + "Boxed Layout"
+      + "</label>"
+      + "<p>Activate the boxed layout</p>"
+      + "</div>"
+        //Sidebar Toggle
+      + "<div class='form-group'>"
+      + "<label class='control-sidebar-subheading'>"
+      + "<input type='checkbox' data-layout='sidebar-collapse' class='pull-right'/> "
+      + "Toggle Sidebar"
+      + "</label>"
+      + "<p>Toggle the left sidebar's state (open or collapse)</p>"
+      + "</div>"
+        //Sidebar mini expand on hover toggle
+      + "<div class='form-group'>"
+      + "<label class='control-sidebar-subheading'>"
+      + "<input type='checkbox' data-enable='expandOnHover' class='pull-right'/> "
+      + "Sidebar Expand on Hover"
+      + "</label>"
+      + "<p>Let the sidebar mini expand on hover</p>"
+      + "</div>"
+        //Control Sidebar Toggle
+      + "<div class='form-group'>"
+      + "<label class='control-sidebar-subheading'>"
+      + "<input type='checkbox' data-controlsidebar='control-sidebar-open' class='pull-right'/> "
+      + "Toggle Right Sidebar Slide"
+      + "</label>"
+      + "<p>Toggle between slide over content and push content effects</p>"
+      + "</div>"
+        //Control Sidebar Skin Toggle
+      + "<div class='form-group'>"
+      + "<label class='control-sidebar-subheading'>"
+      + "<input type='checkbox' data-sidebarskin='toggle' class='pull-right'/> "
+      + "Toggle Right Sidebar Skin"
+      + "</label>"
+      + "<p>Toggle between dark and light skins for the right sidebar</p>"
+      + "</div>"
   );
   var skins_list = $("<ul />", {"class": 'list-unstyled clearfix'});
 
@@ -211,7 +204,7 @@
           + "<p class='text-center no-margin' style='font-size: 12px;'>Yellow Light</p>");
   skins_list.append(skin_yellow_light);
 
-  demo_settings.append("<h4 class='control-sidebar-heading'>皮肤设置</h4>");
+  demo_settings.append("<h4 class='control-sidebar-heading'>Skins</h4>");
   demo_settings.append(skins_list);
 
   tab_pane.append(demo_settings);
